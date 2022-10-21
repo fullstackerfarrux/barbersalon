@@ -1,0 +1,845 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.stick {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+.stick ul {
+  display: flex;
+  color: white;
+  margin-left: 300px;
+  margin-top: 10px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.stick ul li:first-child {
+  color: #fbb034;
+}
+.stick ul li {
+  margin-left: 40px;
+}
+.stick .logo {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+}
+.stick ul + a {
+  width: 200px;
+  height: 50px;
+  color: black;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.stick li:hover {
+  transform: scale(1.1);
+}
+.stick ul + a:hover {
+  transform: scale(1.1);
+}
+
+header {
+  background-image: url(../../images/bcgimage.png);
+}
+header .portion1 {
+  margin: 200px 0 100px;
+  margin-left: 80px;
+}
+header .portion1 h5 {
+  color: #fbb034;
+  opacity: 0.7;
+  font-family: jost;
+  font-weight: 400;
+}
+header .portion1 h2 {
+  color: white;
+  width: 550px;
+  margin: 10px 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 48px;
+}
+header .portion1 p {
+  color: #9a9a9a;
+  width: 400px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 21px;
+}
+header .portion2 {
+  margin-top: 100px;
+}
+header .page1btn {
+  padding: 50px 0;
+}
+header .page1btn .booknow {
+  width: 180px;
+  height: 50px;
+  color: black;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+header .page1btn .allservices {
+  width: 180px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+header .page1btn .booknow:hover {
+  transform: scale(1.1);
+}
+header .page1btn .allservices:hover {
+  transform: scale(1.1);
+}
+
+.best {
+  background-image: url(../../images/page2.png);
+  padding: 80px 0;
+  position: relative;
+}
+.best h1 {
+  color: grey;
+  opacity: 0.1;
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+  top: 170px;
+  left: 550px;
+  display: inline-block;
+}
+.best .portion1 {
+  position: relative;
+}
+.best .portion1 .page2-1 {
+  position: relative;
+}
+.best .portion1 .page2-2 {
+  position: relative;
+  bottom: 170px;
+}
+.best .portion1 .page2-3 {
+  position: relative;
+  top: 150px;
+  right: 210px;
+  border: 10px solid white;
+}
+.best .portion2 {
+  position: relative;
+  z-index: 2;
+  margin-top: 100px;
+}
+.best .portion2 h5 {
+  color: #fbb034;
+  opacity: 0.8;
+  font-family: jost;
+  font-weight: 400;
+}
+.best .portion2 h2 {
+  width: 400px;
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 45px;
+}
+.best .portion2 p {
+  width: 390px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 17px;
+}
+.best .portion2 .booknow {
+  width: 180px;
+  height: 50px;
+  color: black;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.best .portion2 .booknow:hover {
+  transform: scale(1.1);
+}
+
+.page3 {
+  background-image: url(../../images/page3.png);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding: 100px 0;
+}
+.page3 .portion1 {
+  margin-left: 80px;
+}
+.page3 .portion1 h5 {
+  color: #fbb034;
+  opacity: 0.7;
+  font-family: jost;
+  font-weight: 400;
+}
+.page3 .portion1 h2 {
+  color: white;
+  width: 550px;
+  margin: 10px 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 48px;
+}
+.page3 .portion1 p {
+  color: #9a9a9a;
+  width: 400px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 21px;
+}
+.page3 .portion1 .bookapoint {
+  width: 200px;
+  height: 60px;
+  background-color: #fbb034;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transform: translateY(30px);
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page3 .portion2 {
+  width: 320px;
+  height: 280px;
+  background-color: white;
+  margin-left: 150px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page3 .portion2 .seriykrug {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.page3 .portion2 h4 {
+  color: #b8b8b8;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.page3 .portion2 p {
+  font-size: 25px;
+}
+
+.seriy {
+  background-color: #f6f6f6;
+}
+.seriy .page4 {
+  padding: 90px 0;
+  display: flex;
+}
+.seriy .page4 .portion2 {
+  width: 570px;
+  height: 345px;
+  background-color: #fbb034;
+}
+.seriy .page4 .portion2 h3 {
+  color: rgba(236, 236, 236, 0.1);
+  font-size: 64px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 0;
+}
+.seriy .page4 .portion2 h2 {
+  font-size: 34px;
+  color: white;
+  position: relative;
+  z-index: 2;
+  bottom: 50px;
+  margin-left: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.seriy .page4 .portion2 .weare {
+  position: relative;
+  bottom: 40px;
+  margin-left: 15px;
+  font-family: Json;
+  font-weight: 400;
+}
+.seriy .page4 .portion2 .monday {
+  width: 400px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: white;
+  border-bottom: 1px dashed black;
+}
+.seriy .page4 .portion2 .monday p {
+  font-family: Poppins;
+  font-weight: 700;
+}
+.seriy .page4 .portion2 .monday .watch {
+  color: black;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.seriy .page4 .portion2 .friday {
+  width: 400px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: white;
+  border-bottom: 1px dashed black;
+}
+.seriy .page4 .portion2 .friday p {
+  font-family: Poppins;
+  font-weight: 700;
+}
+.seriy .page4 .portion2 .friday .watch {
+  color: black;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.seriy .page4 .portion2 .booknow {
+  width: 150px;
+  height: 40px;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.seriy .page4 .portion2 .booknow:hover {
+  transform: scale(1.1);
+}
+
+.page5 {
+  position: relative;
+  background-image: url(../../images/page5.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 400px;
+}
+.page5 h3 {
+  font-size: 50px;
+  color: #ececec;
+  position: absolute;
+  z-index: 0;
+  left: 200px;
+  font-family: Jost;
+  font-weight: 400;
+}
+.page5 .portion1 .testimonials {
+  color: #fbb034;
+  font-family: Jost;
+  font-weight: 400;
+}
+.page5 .portion1 h2 {
+  position: relative;
+  z-index: 1;
+  width: 420px;
+  margin: 20px 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 48px;
+}
+.page5 .portion1 p {
+  width: 350px;
+  color: #ababab;
+  font-family: Jost;
+  font-weight: 400;
+}
+.page5 .portion1 a {
+  width: 200px;
+  height: 50px;
+  color: black;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 15px;
+}
+.page5 .portion1 a:hover {
+  transform: scale(1.1);
+}
+.page5 .portion2 {
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  margin: 0 60px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../images/cardman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 9px 25px 10px rgba(0, 0, 0, 0.01), 5px 14px 9px rgba(0, 0, 0, 0.05), 2px 6px 6px rgba(0, 0, 0, 0.09), 1px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.page5 .portion2 .itwas {
+  width: 260px;
+  color: #c2c2c2;
+  margin: 20px 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+}
+.page5 .portion2 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page5 .portion2 .regular {
+  color: #c2c2c2;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+}
+.page5 .portion3 {
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../images/cardman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 9px 25px 10px rgba(0, 0, 0, 0.01), 5px 14px 9px rgba(0, 0, 0, 0.05), 2px 6px 6px rgba(0, 0, 0, 0.09), 1px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.page5 .portion3 .itwas {
+  width: 260px;
+  color: #c2c2c2;
+  margin: 20px 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+}
+.page5 .portion3 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page5 .portion3 .regular {
+  color: #c2c2c2;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.page6 {
+  position: relative;
+  padding: 100px 0;
+}
+.page6 h3 {
+  color: #ececec;
+  position: absolute;
+  left: 400px;
+  z-index: 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 150px;
+}
+.page6 p {
+  color: #bd9f6f;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page6 h2 {
+  position: relative;
+  z-index: 2;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 40px;
+}
+.page6 .cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.page6 .cards .portion1 {
+  width: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion1 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion1 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .cards .portion2 {
+  width: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion2 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion2 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .cards .portion3 {
+  width: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion3 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion3 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .cards .portion4 {
+  width: 170px;
+  background-color: #b48e40;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion4 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion4 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .cards .portion5 {
+  width: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion5 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion5 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .cards .portion6 {
+  width: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page6 .cards .portion6 img {
+  margin: 20px 0;
+}
+.page6 .cards .portion6 h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+}
+.page6 .page7 {
+  padding: 50px 0;
+}
+.page6 .page7 .portion1 {
+  width: 600px;
+  height: 400px;
+}
+.page6 .page7 .portion2 {
+  margin-left: 30px;
+}
+.page6 .page7 .portion2 h2 {
+  width: 300px;
+  text-align: left;
+  font-size: 26px;
+  margin-left: 0;
+}
+.page6 .page7 .portion2 p {
+  color: #ababab;
+  text-align: left;
+  width: 700px;
+  margin: 20px 0;
+}
+.page6 .page7 .galochka {
+  margin-top: 20px;
+}
+.page6 .page7 .galochka p {
+  margin: 0 10px;
+  color: black;
+}
+.page6 .page7 .booknow {
+  width: 200px;
+  height: 50px;
+  color: black;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page6 .page7 .booknow:hover {
+  transform: scale(1.1);
+}
+
+.page8 {
+  background-image: url(../../images/page8.png);
+  width: 1349px;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page8 p {
+  color: #fbb034;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+}
+.page8 h2 {
+  color: white;
+  width: 540px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+}
+.page8 .booknow {
+  width: 200px;
+  height: 50px;
+  color: #fbb034;
+  border: 1px solid #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.page8 .booknow:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: black;
+}
+footer .getstar {
+  padding: 40px 0;
+  border-bottom: 1px solid white;
+}
+footer .getstar p {
+  color: white;
+  margin-left: 550px;
+  margin-top: 10px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 22px;
+}
+footer .getstar .booknow {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #fbb034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+footer .getstar .booknow:hover {
+  transform: scale(1.1);
+}
+footer .footer .portion1 {
+  padding: 40px 0;
+}
+footer .footer .portion1 h2 {
+  color: white;
+  width: 200px;
+}
+footer .footer .portion1 .email {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: white;
+  padding-left: 10px;
+}
+footer .footer .portion1 .input {
+  display: flex;
+}
+footer .footer .portion1 .input button {
+  width: 50px;
+  height: 50px;
+  background-color: #fbb034;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 15px;
+}
+footer .footer .portion2 ul {
+  color: white;
+  margin: 40px 0;
+  margin-left: 100px;
+}
+footer .footer .portion2 ul li {
+  margin-top: 20px;
+}
+footer .footer .portion2 ul .li1 {
+  color: #b48e40;
+}
+footer .footer .portion2 ul li:hover {
+  transform: scale(1.2);
+}
+footer .footer .portion3 ul {
+  color: white;
+  margin: 40px 0;
+  margin-left: 100px;
+}
+footer .footer .portion3 ul li {
+  margin-top: 20px;
+}
+footer .footer .portion3 ul .li1 {
+  color: #b48e40;
+}
+footer .footer .portion3 ul li:hover {
+  transform: scale(1.2);
+}
+footer .footer .portion4 ul {
+  color: white;
+  margin: 40px 0;
+  margin-left: 100px;
+}
+footer .footer .portion4 ul li {
+  margin-top: 20px;
+}
+footer .footer .portion4 ul .li1 {
+  color: #b48e40;
+}
+footer .footer .portion4 ul li:hover {
+  transform: scale(1.2);
+}
+footer .tugadi {
+  padding-bottom: 50px;
+}
+footer .tugadi p {
+  color: white;
+  margin-top: 50px;
+}
+footer .tugadi .policy {
+  margin-left: 50px;
+}
+footer .tugadi .icons {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+footer .tugadi .icons1 {
+  margin-top: 50px;
+  margin-left: 600px;
+}
+footer .tugadi a:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=main.css.map */
